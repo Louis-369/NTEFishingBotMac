@@ -1,0 +1,25 @@
+.DS_Store
+
+# Swift build outputs
+.build/
+cli/.build/
+app/.build/
+
+# Local release artifacts
+dist/
+*.zip
+*.dmg
+
+# Local logs and debug captures
+*.log
+*.tmp
+debug-crops/
+video-review/
+video-review-*/
+video-frames/
+samples/*.png
+templates/*.png
+
+# Local editor state
+.codex/
+.swiftpm/

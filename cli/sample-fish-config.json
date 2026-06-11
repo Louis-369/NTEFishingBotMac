@@ -1,0 +1,100 @@
+{
+  "windowMatch": "異環",
+  "activateWindow": false,
+  "inputMode": "global",
+  "pauseWhenTargetNotFrontmost": true,
+  "targetFocusGraceMs": 800,
+  "dryRun": false,
+  "matchStride": 3,
+  "pixelStride": 2,
+  "defaultThreshold": 0.90,
+  "fish": {
+    "loopIntervalMs": 16,
+    "liveStartDelayMs": 3000,
+    "retryLimit": 3,
+    "stallTimeoutMs": 9000,
+    "controlMode": "holdSwitch",
+    "assistKey": "f",
+    "assistKeyIntervalMs": 1200,
+    "assistKeyMaxAttempts": 25,
+    "promptKey": "f",
+    "promptCooldownMs": 800,
+    "promptRepeatMs": 3000,
+    "startPromptRepeatMs": 2200,
+    "hookPromptRepeatMs": 450,
+    "promptStableFrames": 1,
+    "promptMaxAttempts": 8,
+    "assistRequiresPrompt": true,
+    "fallbackAssistWhenPromptMissing": false,
+    "barAssistRequiresPrompt": true,
+    "resultPromptKey": "mouseClickResultPrompt",
+    "resultPromptFallbackKey": "mouseClickBlank",
+    "resultPromptCooldownMs": 1200,
+    "resultPromptMaxAttempts": 6,
+    "resultPromptStuckTimeoutMs": 8000,
+    "resultPromptClickXRatio": 0.78,
+    "resultPromptClickYRatio": 0.76,
+    "barAssistEveryFrames": 45,
+    "barAssistDurationMs": 50,
+    "barAssistCooldownMs": 800,
+    "barMissToleranceFrames": 15,
+    "barRegionRatio": {
+      "x": 0.300,
+      "y": 0.075,
+      "width": 0.450,
+      "height": 0.040
+    },
+    "promptRegionRatio": {
+      "x": 0.68,
+      "y": 0.45,
+      "width": 0.30,
+      "height": 0.52
+    },
+    "resultPromptRegionRatio": {
+      "x": 0.32,
+      "y": 0.80,
+      "width": 0.36,
+      "height": 0.16
+    },
+    "greenColor": {
+      "mode": "hsv",
+      "hue": [145, 190],
+      "saturation": [0.25, 1.0],
+      "brightness": [0.30, 1.0]
+    },
+    "cursorColor": {
+      "mode": "hsv",
+      "hue": [35, 70],
+      "saturation": [0.35, 1.0],
+      "brightness": [0.45, 1.0]
+    },
+    "promptActiveColor": {
+      "mode": "hsv",
+      "hue": [205, 245],
+      "saturation": [0.35, 1.0],
+      "brightness": [0.45, 1.0]
+    },
+    "resultPromptColor": {
+      "mode": "hsv",
+      "hue": [0, 360],
+      "saturation": [0.0, 0.38],
+      "brightness": [0.70, 1.0]
+    },
+    "colorStride": 1,
+    "minGreenPixels": 120,
+    "minCursorPixels": 5,
+    "minPromptPixels": 18,
+    "minResultPromptPixels": 90,
+    "deadzonePx": 15,
+    "releaseDeadzoneFactor": 0.60,
+    "adaptiveDeadzoneFactor": 0.16,
+    "predictionLeadMs": 70,
+    "predictionMaxPxAt1280": 70,
+    "invertControls": false,
+    "pxPerSecondAt1280": 168,
+    "factor": 1.4,
+    "floorMs": 80,
+    "capMs": 700,
+    "pause": []
+  }
+}

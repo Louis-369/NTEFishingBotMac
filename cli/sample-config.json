@@ -1,0 +1,51 @@
+{
+  "windowMatch": "異環",
+  "activateWindow": true,
+  "loopIntervalMs": 120,
+  "defaultThreshold": 0.92,
+  "matchStride": 3,
+  "pixelStride": 2,
+  "dryRun": true,
+  "templates": [
+    {
+      "name": "cast",
+      "path": "templates/cast.png",
+      "threshold": 0.92,
+      "cooldownMs": 1600,
+      "actions": [
+        { "type": "keyTap", "key": "f" }
+      ]
+    },
+    {
+      "name": "hook",
+      "path": "templates/hook.png",
+      "threshold": 0.92,
+      "cooldownMs": 600,
+      "actions": [
+        { "type": "keyTap", "key": "f" }
+      ]
+    },
+    {
+      "name": "pull-left",
+      "path": "templates/pull-left.png",
+      "threshold": 0.90,
+      "cooldownMs": 120,
+      "actions": [
+        { "type": "keyTap", "key": "a" }
+      ]
+    },
+    {
+      "name": "pull-right",
+      "path": "templates/pull-right.png",
+      "threshold": 0.90,
+      "cooldownMs": 120,
+      "actions": [
+        { "type": "keyTap", "key": "d" }
+      ]
+    }
+  ],
+  "idleAction": {
+    "afterMs": 9000,
+    "action": { "type": "keyTap", "key": "f" }
+  }
+}
