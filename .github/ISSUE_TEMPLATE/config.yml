@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: MaaNTE
+    url: https://github.com/1bananachicken/MaaNTE
+    about: Reference project for NTE automation on Windows.
+  - name: MaaAssistantArknights
+    url: https://github.com/MaaAssistantArknights/MaaAssistantArknights
+    about: Reference project for the broader Maa ecosystem.
